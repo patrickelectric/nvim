@@ -98,7 +98,8 @@ autocmd FileType c,cpp nnoremap <buffer> gd :<c-u>call ncm2_pyclang#goto_declara
 " curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 " Cut
-imap <C-k> <Esc>dd<i>
+imap <C-K> ,<Esc>dd:startinsert<CR>
+
 " Paste
-imap <C-u> <Esc>p<i>
+imap <C-u> <Esc>p:startinsert<CR>
 
