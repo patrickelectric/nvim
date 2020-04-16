@@ -45,6 +45,7 @@ set completeopt=noinsert,menuone
 inoremap <expr> <Tab> pumvisible() ? "\<c-y>" : "\<Tab>"
 
 " Set libclang file for pyclang
+" /usr/local/Cellar/llvm/9.0.0_1/lib/libclang.dylib
 let g:ncm2_pyclang#library_path = '/usr/lib/libclang.so'
 let g:ncm2_pyclang#args_file_path = ['/home/patrick/.config/nvim/.clang_complete', '.clang_complete']
 let g:ncm2_pyclang#gcc_path = '/usr/bin/gcc'
