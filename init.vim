@@ -1,3 +1,6 @@
+" Install plugin manager
+" curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'morhetz/gruvbox'
@@ -93,9 +96,6 @@ autocmd FileType c,cpp nnoremap <buffer> gd :<c-u>call ncm2_pyclang#goto_declara
 " Split vertical and horizontal
 " :vsplit
 " :hsplit
-
-" Install plugin manager
-" curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 " Cut
 imap <C-K> ,<Esc>dd:startinsert<CR>
