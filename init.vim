@@ -9,9 +9,9 @@ Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
-" Needs: python3 -m pip install --user --upgrade pynvim 
+" Needs: python3 -m pip install --user --upgrade pynvim
 Plug 'ncm2/ncm2' " autocomplete
-Plug 'roxma/nvim-yarp' 
+Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-pyclang' " c++, work-ish
 Plug 'ncm2/ncm2-jedi' " python
 Plug 'ncm2/ncm2-racer' " rust
