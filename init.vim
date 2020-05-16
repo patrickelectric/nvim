@@ -25,7 +25,7 @@ Plug 'dense-analysis/ale'
 call plug#end()
 
 " open nerdtree automatically
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 " map n to show file in tree
 nmap ,n :NERDTreeFind<CR>
 " show in tree after the file is open
@@ -64,7 +64,7 @@ set hidden
 set number
 
 " Enable relative numbers
-set relativenumber
+" set relativenumber
 
 " Enable mouse control
 set mouse=a
@@ -83,7 +83,7 @@ nnoremap <c-f> :Ag<space>
 nnoremap <c-d> :qa<cr>
 
 " Save
-nnoremap <c-o> :w<cr>
+nnoremap <c-s> :w<cr>
 
 " esc + reload to reload configuraton file
 nnoremap reload :source ~/.config/nvim/init.vim<cr>
